@@ -22,5 +22,3 @@ pip install -r requirements.txt
 python -m src.train --data-path data/Titanic-Dataset.csv --model-out models/rf_pipeline.joblib
 python -m src.evaluate --model-path models/rf_pipeline.joblib --data-path data/Titanic-Dataset.csv
 ```
-OUTPUT :
-
